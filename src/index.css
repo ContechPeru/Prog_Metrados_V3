@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0084ff;
+  --color-primary-hover: #006bce;
+}
+
+body {
+  background-color: #f3f4f6;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #1f2937;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+
+/* Colores de Grupo Presupuestal */
+.bg-financial-progress {
+  background-color: #f0f7ff !important; /* Blue-50 */
+  color: #1e40af !important; /* Blue-800 */
+}
+
+.bg-financial-budget {
+  background-color: #f8fafc !important; /* Slate-50 */
+  color: #475569 !important; /* Slate-600 */
+}
+
+.bg-financial-pending {
+  background-color: #fffbeb !important; /* Amber-50 */
+  color: #92400e !important; /* Amber-800 */
+}
+
+.bg-financial-value {
+  background-color: #ecfdf5 !important; /* Emerald-50 */
+  color: #065f46 !important; /* Emerald-800 */
+}
+
+.bg-current-month {
+  background-color: #d1fae5 !important; /* Emerald-100 */
+  color: #047857 !important; /* Emerald-700 */
+}
